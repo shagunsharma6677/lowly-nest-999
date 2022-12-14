@@ -1,0 +1,11 @@
+.heading_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid blue;
+    
+}
+.image_card{
+    display: flex;
+}

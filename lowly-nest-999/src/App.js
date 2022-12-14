@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from "./Components/Navbar/Navbar"
 import Footer from "./Components/Footer/Footer.jsx"
 // import Login from './Components/Login/Login';
-import Signup from "./Components/Signup/Signup.jsx";
+// import Signup from "./Components/Signup/Signup.jsx";
+import Home from './Components/Home/Home';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <br/>
       {/* <Login/> */}
-      <Signup/>
+      {/* <Signup/> */}
+      <Home/>
 
       <br/>
       <Footer/>

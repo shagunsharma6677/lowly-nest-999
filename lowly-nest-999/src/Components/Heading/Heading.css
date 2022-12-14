@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+}
+.heading{
+    width: 600px;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    
+}
+.heading > h2{
+    font-size: 48px;
+  line-height: 48px;
+}
+.heading > p{
+    font-size: 24px;
+    line-height: 32px;
+    
+}
+.heading > Button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
