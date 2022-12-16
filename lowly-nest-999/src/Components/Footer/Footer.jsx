@@ -1,12 +1,23 @@
 import "../Footer/Footer.css"
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 export default function Footer() {
     return <>
         <div className="footer_container">
+            <hr />
             <div className="footer">
+                
+                <div className="links">
+                    <div>Related Link:</div>
+                    <p>Website Builder</p>
+                    <p>Canva</p>
+                    <p>The Picture Perfect Guide on How to Use Pintrest</p>
+
+                </div>
+              
                 <div className="footer_upper">
                     <div className="products">
-                        <h2>Products</h2>
+                        <h2 className="head">Products</h2>
                         <ul>
                             <li>Why mailPanda?</li>
                             <li>Product Updates </li>
@@ -23,7 +34,7 @@ export default function Footer() {
                     </div>
 
                     <div className="resources">
-                        <h2>Resources</h2>
+                        <h2 className="head">Resources</h2>
                         <ul>
                             <li>Marketing Library</li>
                             <li>Free Marketing Tools</li>
@@ -32,7 +43,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="community">
-                        <h2>Community</h2>
+                        <h2 className="head">Community</h2>
                         <ul>
                             <li>Agencies & Freelancers</li>
                             <li>Developers</li>
@@ -42,7 +53,7 @@ export default function Footer() {
                     </div>
 
                     <div className="company">
-                        <h2>Company</h2>
+                        <h2 className="head">Company</h2>
                         <ul>
                             <li>Our Story</li>
                             <li>Newsroom</li>
@@ -54,7 +65,7 @@ export default function Footer() {
 
                     </div>
                     <div className="help">
-                        <h2>Help</h2>
+                        <h2 className="head">Help</h2>
                         <ul>
                             <li>Newsroom</li>
                             <li>Hire an Expert</li>
@@ -66,22 +77,26 @@ export default function Footer() {
                     </div>
                     <div className="mailPanda-content">
                         <div>
-                            <h3>MailPanda Presents</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur, ab quas numquam recusandae molestiae!</p>
+                            <h3 className="head">MailPanda Presents</h3>
+                            <p>Films, podcasts, and original series that celebrate the entrepreneurial spirit </p>
                             <a>Check it out</a>
                         </div>
 
                         <div>
-                            <h3>Courier</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consequatur, ab quas numquam recusandae molestiae!</p>
+                            <h3 className="head db">Courier</h3>
+                            <p>Expert insights, industry trends, and inspiring stories that help you live and work on your own terms.</p>
                             <a>Learn more</a>
                         </div>
 
+
                     </div>
+                    
 
                 </div>
+                <hr />
 
-                <div className="footer_lower">
+
+                 <div className="footer_lower">
                     <div className="apps">
                         <div>google play</div>
                         <div>apple store</div>
@@ -89,7 +104,7 @@ export default function Footer() {
                     </div>
 
                     <div className="social_media">
-                        <img src="" alt="" />
+                        <FacebookIcon />
                         <img src="" alt="" />
                         <img src="" alt="" />
                         <img src="" alt="" />
@@ -101,9 +116,10 @@ export default function Footer() {
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur rerum quod suscipit sequi laboriosam dolorem culpa veritatis cum in nobis quisquam laudantium, dolore non dignissimos placeat excepturi impedit quae aut fugit blanditiis voluptas qui facilis.
                     </p>
 
-                </div>
-
+                </div> 
+                
             </div>
+            <hr />
 
         </div>
     </>
