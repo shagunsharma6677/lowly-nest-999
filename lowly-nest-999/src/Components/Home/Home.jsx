@@ -1,6 +1,8 @@
 import Heading from "../Heading/Heading"
 import Card from "../Card/Card"
 import "./Home.css"
+import { background } from "@chakra-ui/react"
+import { red, teal } from "@mui/material/colors"
 export default function Home() {
     return <>
 
@@ -23,34 +25,229 @@ export default function Home() {
                 data="Connect more tools, get more data, save time, and make better decisions. " />
         </div>
 
-        {/* <div className="video_card">
-            <VideoCard />
-
-        </div>
-        <div className="plan">
-            <Plan />
-
+        <div className="video_card">
+            <div className="video_cont">
+                <div className="video">
+                    <img src="https://embed-ssl.wistia.com/deliveries/f9d4f61a1c1af30c55441ddd498bceec.webp?image_crop_resized=640x360" alt="" />
+                </div>
+                <div className="video_content">
+                    <p>Most email marketing platforms tell you how your campaigns perform. We analyze the data from the billions of emails we send to give you personalized recommendations for improving your content, targeting, and automations</p>
+                </div>
+            </div>
         </div>
         <div className="heading_2">
             <Heading />
 
-        </div> */}
+        </div>
+        <div className="cards_content">
+            <div className="cards_cont clr1">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
 
-        {/* <div>
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Card />
+            <div className="cards_cont clr2">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
 
-            /</div> */}
+            <div className="cards_cont clr3">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
 
-        <div className="patners">
+            <div className="cards_cont clr4">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="video_card">
+            <div className="video_cont">
+                <div className="video_content">
+                    <p>Most email marketing platforms tell you how your campaigns perform. We analyze the data from the billions of emails we send to give you personalized recommendations for improving your content, targeting, and automations</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="heading_2">
+            <Heading />
 
         </div>
 
+        <div className="cards_content">
+            <div className="cards_cont clr1">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
+
+            <div className="cards_cont clr2">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
+
+            <div className="cards_cont clr3">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
+
+            <div className="cards_cont clr4">
+                <div className="cards">
+                    <h2>Convert more customers at scale</h2>
+                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <div>
+                        Learn more -
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="partners_container">
+            <div className="prtn_cont">
 
 
+                <div className="partners_heading">
+                    <h2>
+                        Bring in more data, drive more growth with our integrations
+                    </h2>
+
+                </div>
+
+                <div className="partners">
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="partners_card">
+                        <div className="prt_img_div">
+                            <img src="https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                        </div>
+                        <div className="prt_content">
+                            <h2>Canva</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </>
 }
