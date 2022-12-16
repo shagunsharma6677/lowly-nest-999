@@ -1,7 +1,7 @@
 import { Button } from '@chakra-ui/react'
 import "./Card.css"
 export default function Card(props) {
-    const { img, bg, data } = props
+    const { img, data } = props
     return <>
         <div className="container">
             <div className="card">
