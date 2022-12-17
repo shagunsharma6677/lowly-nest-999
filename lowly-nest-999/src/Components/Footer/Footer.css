@@ -11,11 +11,7 @@
     max-width: 1600px;
     padding: 20px;
     border: 2px solid red;
-    margin: auto;
-    
-    
-    
-    
+    margin: auto;  
 }
 hr{
     color:brown;
@@ -59,11 +55,11 @@ hr{
 }
 li {
     list-style: none;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 li:hover{
-    background-color: rgb(223, 193, 27);
+    text-decoration: none;
 }
 .head{
     margin-bottom: 20px;

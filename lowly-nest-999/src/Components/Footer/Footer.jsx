@@ -1,4 +1,4 @@
-import "../Footer/Footer.css"
+import "./Footer.css"
 import FacebookIcon from '@mui/icons-material/Facebook';
 
 export default function Footer() {

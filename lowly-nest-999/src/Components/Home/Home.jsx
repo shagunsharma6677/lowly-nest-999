@@ -1,15 +1,14 @@
 import Heading from "../Heading/Heading"
 import Card from "../Card/Card"
 import "./Home.css"
-import { background } from "@chakra-ui/react"
-import { red, teal } from "@mui/material/colors"
+// import { background } from "@chakra-ui/react"
+// import { red, teal } from "@mui/material/colors"
 export default function Home() {
     return <>
-
         <div className="heading_1">
-            <Heading />
+            <Heading heading="Turn Emails into Revenue" p_tag="Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks and sales." />
         </div>
-        <br />
+
         <div className="image_card">
             <Card img="https://eep.io/images/yzco4xsimv0y/33f3mgIWbzKjIpIRJi2f5v/6bd36bba38b7f6a94d587605ab9a7d75/Desktop_Feature_Cards_1_Automations.jpeg?w=630&fm=webp&q=80"
                 bg="#D99536"
@@ -36,7 +35,12 @@ export default function Home() {
             </div>
         </div>
         <div className="heading_2">
-            <Heading />
+            <div className='container_h'>
+                <div className='heading'>
+                    <h2>Generate up to 4x more orders* with Customer Journey Builder automations</h2>
+                </div>
+
+            </div>
 
         </div>
         <div className="cards_content">
@@ -44,9 +48,9 @@ export default function Home() {
                 <div className="cards">
                     <h2>Convert more customers at scale</h2>
                     <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
-                    <div>
+                    <p>
                         Learn more -
-                    </div>
+                    </p>
                 </div>
             </div>
 
@@ -62,8 +66,8 @@ export default function Home() {
 
             <div className="cards_cont clr3">
                 <div className="cards">
-                    <h2>Convert more customers at scale</h2>
-                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <h2>Discover new ways to automate</h2>
+                    <p>Get a head start with pre-built journeys that help you cross-sell your products, recover abandoned carts, re-engage existing customers, and win new ones.</p>
                     <div>
                         Learn more -
                     </div>
@@ -72,8 +76,8 @@ export default function Home() {
 
             <div className="cards_cont clr4">
                 <div className="cards">
-                    <h2>Convert more customers at scale</h2>
-                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
+                    <h2>Keep your emails relevant and your brand growing</h2>
+                    <p>eliver personalized emails based on their buying behavior, survey responses, chat interactions, and support tickets to promote loyalty and growth.</p>
                     <div>
                         Learn more -
                     </div>
@@ -81,60 +85,9 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="video_card">
-            <div className="video_cont">
-                <div className="video_content">
-                    <p>Most email marketing platforms tell you how your campaigns perform. We analyze the data from the billions of emails we send to give you personalized recommendations for improving your content, targeting, and automations</p>
-                </div>
-            </div>
-        </div>
+        
 
-        <div className="heading_2">
-            <Heading />
-
-        </div>
-
-        <div className="cards_content">
-            <div className="cards_cont clr1">
-                <div className="cards">
-                    <h2>Convert more customers at scale</h2>
-                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
-                    <div>
-                        Learn more -
-                    </div>
-                </div>
-            </div>
-
-            <div className="cards_cont clr2">
-                <div className="cards">
-                    <h2>Convert more customers at scale</h2>
-                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
-                    <div>
-                        Learn more -
-                    </div>
-                </div>
-            </div>
-
-            <div className="cards_cont clr3">
-                <div className="cards">
-                    <h2>Convert more customers at scale</h2>
-                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
-                    <div>
-                        Learn more -
-                    </div>
-                </div>
-            </div>
-
-            <div className="cards_cont clr4">
-                <div className="cards">
-                    <h2>Convert more customers at scale</h2>
-                    <p>Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.</p>
-                    <div>
-                        Learn more -
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <div className="partners_container">
             <div className="prtn_cont">
@@ -149,100 +102,100 @@ export default function Home() {
 
                 <div className="partners">
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                        
+                            <img className="my" src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80" alt="" />
+                     
                         <div className="prt_content">
                             <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <p>Create compelling visuals for your marketing.
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                       
+                            <img  className="my" src="https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                        
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>MailPanda for Salesforce</h2>
+                            <p>Sync your MailPanda subscribers and Salesforce leads across platforms.
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                      
+                            <img className="my"  src="https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                       
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>Instagram</h2>
+                            <p>Promote and share your instagram posts in email xampaigns
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                       
+                            <img className="my"  src="https://eep.io/images/yzco4xsimv0y/44dW9Z4hibyDYi0qggfets/b01884985e996ffb5dc133556b92bb7a/Shopify__1_.jpg?w=196&fm=webp&q=80" alt="" />
+                    
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>Shopify</h2>
+                            <p>Sync Shopify customers, products and purchase data to MailPanda
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                     
+                            <img className="my"  src="https://eep.io/images/yzco4xsimv0y/7mpZ7UZrdzk2BmWX1OnRvb/5e610ecd21eeb25d0b82b098ce424e34/Google_Analytics2.jpg?w=196&fm=webp&q=80" alt="" />
+                   
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>Google Analytics</h2>
+                            <p>Unlock powerful insights with campaigh, website or landing page data.
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                    
+                            <img className="my"  src="https://eep.io/images/yzco4xsimv0y/2uruOq31Y1FKdghFWn5zMg/8a35f3f9e463ba34038f3c3f16ccb635/WooCommerce.jpg?w=196&fm=webp&q=80" alt="" />
+                    
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>WooCommerce</h2>
+                            <p>Power your ecommerce store with smart marketing features
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                      
+                            <img className="my"  src="https://eep.io/images/yzco4xsimv0y/uZVnrVt3DO1G4Ec5G4pvs/e6c9d3c2613827f7dd238f1c5e0b02d9/Quickbooks.jpg?w=196&fm=webp&q=80" alt="" />
+                     
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>QuickBooks Online</h2>
+                            <p>Bring together your marketing tools and invoice data.
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/51oq4AakIqo8fATlHgqHK0/02a750b1c1a16745296dca6fa7cb830c/Salesforce__1_.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                       
+                            <img className="my"  src="https://eep.io/images/yzco4xsimv0y/2klSrOoLZKmLuGKZjKT9o3/ca400f60c2f3673f3ab9b52f4d03360d/Squarespace.jpg?w=196&fm=webp&q=80" alt="" />
+                     
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>Squarespace Commerce</h2>
+                            <p>Market your ecommerce business drive sales.
                             </p>
                         </div>
                     </div>
 
                     <div className="partners_card">
-                        <div className="prt_img_div">
-                            <img src="https://eep.io/images/yzco4xsimv0y/67trWJLKtKcvrqlKYSlskE/696ad499e0cc60aa7392521a6a7cfd90/Instagram__1_.jpg?w=196&fm=webp&q=80" alt="" />
-                        </div>
+                      
+                            <img className="my" src="https://eep.io/images/yzco4xsimv0y/26deBkGp3A5Pj7suZ9oV7V/858e8a4603707166988a3282bca7e29b/Zapier.jpg?w=196&fm=webp&q=80" alt="" />
+                    
                         <div className="prt_content">
-                            <h2>Canva</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, impedit.
+                            <h2>Zapier</h2>
+                            <p>Automatically pass data between web services without a single line of code.
                             </p>
                         </div>
                     </div>

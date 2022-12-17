@@ -8,16 +8,13 @@ export default function Card(props) {
                 <div className="img-1">
                     <img src={img} alt="" />
                 </div>
-                <div style={{
-                    backgroundColor: "#FDF8EA", height: "180px",
-                    padding: "50px"
-                }} className='lower'>
+                <div className='lower'>
                     <div className="img-2">
                         <p>{data}</p>
                     </div>
                     <div>
                         <Button colorScheme='yellow' variant='outline'>
-                            SighUp
+                            Learn more
                         </Button>
                     </div>
                 </div>

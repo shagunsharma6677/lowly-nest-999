@@ -1,14 +1,13 @@
 import { Button } from '@chakra-ui/react'
 import "./Heading.css"
-export default function Heading() {
+export default function Heading(props) {
+    const {heading, p_tag} = props
     return <>
-        <div className='container'>
+        <div className='container_h'>
             <div className='heading'>
-                <h2>Turn Emails into Revenue</h2>
-                <p>Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks and sales.</p>
-                <Button colorScheme='yellow' variant='outline'>
-                    SighUp
-                </Button>
+                <h2>{heading}</h2>
+                <p>{p_tag}</p>
+
             </div>
 
         </div>
