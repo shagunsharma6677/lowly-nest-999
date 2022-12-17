@@ -1,42 +1,92 @@
 import React from "react"
-import { Button } from '@chakra-ui/react'
-import "../Navbar/Navbar.css"
+import { Link } from "react-router-dom"
+import "./Navbar.css"
 import mailpanda1 from "../Images/mailpanda1.png"
 
 export default function Navbar() {
-    
-    return <>
-        <div className="navbar_container">
-            <div className="navbar">
-                <div className="logo">
-                    <img src={mailpanda1} alt="logo" />
 
-                </div>
-                <div>
-                    <ul className="navbar_tag">
-                        <li>Products</li>
-                        <li>Inspiration</li>
-                        <li>Article</li>
-                        <li>Community</li>
-                        <li>Help</li>
-                        <li>Pricing</li>
-                    </ul>
-                </div>
-                <div className="Buttons">
-                    <Button colorScheme='teal' variant='outline'>
-                        Login
-                    </Button>
-                    <Button colorScheme='yellow' variant='outline'>
-                        SighUp
-                    </Button>
-
-                </div>
-
+  return <>
+    <div className="navbar_container">
+      <div className="navbar">
+        <div className="nav_2">
+          <ul className="navbar_tag">
+            <div>
+              <Link style={{textDecoration: 'none',listStyle:"none"}} to="/">
+                <li className="li">Home</li>
+              </Link>
+            </div>
+            <div>
+              <Link style={{textDecoration: 'none'}} to="/product">
+                <li className="li">Product</li>
+              </Link>
+            </div>
+            <div>
+              <Link style={{textDecoration: 'none'}}to="/inspiration">
+                <li className="li">Inspiration</li>
+              </Link>
             </div>
 
+            <div>
+              <Link style={{textDecoration: 'none'}}to="/article">
+                <li className="li">Articles</li>
+              </Link>
+            </div>
+
+            <div>
+              <Link style={{textDecoration: 'none'}}to="/community">
+                <li className="li">Community</li>
+
+              </Link>
+            </div>
+
+            <div>
+              <Link style={{textDecoration: 'none'}}to="/help">
+                <li className="li">Help</li>
+              </Link>
+            </div>
+
+
+            <div>
+              <Link style={{textDecoration: 'none'}}to="pricin">
+                <li className="li">Pricing</li>
+              </Link>
+            </div>
+          </ul>
         </div>
 
+        <div className="logo">
+          <Link style={{textDecoration: 'none'}} to="/">
+            <div className="logo_div">
+              <img className="logo_img" src={mailpanda1} alt="logo" />
+              <p className="logos">MailPanda</p>
+            </div>
+          </Link>
+        </div>
+
+        <div className="Buttons">
+          <div>
+            <Link style={{textDecoration: 'none'}}to="/login">
+              <div className="btn_div">
+                <button className="button">Login</button>
+              </div>
+            </Link>
+          </div>
+
+          <div>
+            <Link style={{textDecoration: 'none'}}to="/signup">
+              <div className="btn_div">
+                <button className="button">Sighup</button>
+              </div>
+
+            </Link>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
 
 
-    </>
+
+  </>
 }

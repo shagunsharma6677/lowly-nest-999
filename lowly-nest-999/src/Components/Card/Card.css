@@ -1,8 +1,28 @@
 .container{
-    width: 600px;
+    border: 1px solid black;
+    width: 555px;
+    margin: auto;
     /* border: 1px solid black; */
 }
-/* .lower{
-    height: 180px;
-    padding: 50px;
-} */
+.card{
+    border: 1px solid green;
+    margin: auto;
+}
+.img-1{
+    border: 1px solid blue; 
+}
+.lower{
+    height:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-2{
+    width: 80%;
+}
+.img-2 > p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}

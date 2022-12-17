@@ -1,34 +1,80 @@
+.navbar_container {
+  border: 1px solid black;
+  /* padding: 10px; */
+  /* height: 100px; */
+}
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid black;
-    align-items: center;
-
-
+  border: 1px solid green;
+  /* padding: 10px; */
+  display: flex;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+Link {
+  text-decoration: none;
 }
 
+Link:hover {
+  text-decoration: none;
+}
 .navbar_tag {
-    display: flex;
-    text-decoration: none;
-    border: 1px solid red;
-    width: 600px;
-
-
+  border: 1px solid blue;
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  margin-left: 50px;
+  width: 700px;
+}
+.navbar_tag > div {
+  margin: auto;
 }
 
-.navbar_tag>li {
-    margin: auto;
-    text-decoration: none;
+.logo_div {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  margin-left: -140px;
+}
+.logo_div > img {
+  width: 110px;
+}
+.logo_div > p {
+  font-size: 25px;
 }
 
-.logo {
-    width: 80px;
+li {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
 }
 
-.Buttons{
-    border: 1px solid blue;
-    width: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    
+.Buttons {
+  display: flex;
+  border: 1px solid black;
+  width: 250px;
+  margin-right: 50px;
+}
+.Buttons > div {
+  /* border: 1px solid blue; */
+  width: 100px;
+  height: 50px;
+  margin: auto;
+}
+.button {
+  border: 1px solid red;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+}
+.btn_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
