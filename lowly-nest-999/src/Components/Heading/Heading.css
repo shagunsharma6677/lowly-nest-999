@@ -1,15 +1,20 @@
 .container_h {
   width: 100%;
 
-  border: 1px solid blue;
-}
-.heading {
+   /* border: 1px solid blue; */
+} 
+
+
+.heading{
   width: 800px;
   height: 200px;
   margin: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
+
+
+
 .heading > h2 {
   font-size: 48px;
   line-height: 48px;
@@ -19,6 +24,7 @@
 .heading > p {
   font-size: 24px;
   line-height: 32px;
+  margin-bottom: 10px;
 }
 .heading > Button {
   margin-top: 20px;

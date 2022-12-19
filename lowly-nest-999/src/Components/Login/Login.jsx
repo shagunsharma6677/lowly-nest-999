@@ -6,7 +6,7 @@ import "./Login.css"
 
 export default function Login() {
     return <>
-        <div className='container'>
+        <div className='container_log'>
             <div className="form_div">
                 <Form className='form'>
                     <div className='login'>
@@ -28,7 +28,7 @@ export default function Login() {
                         <Form.Check type="checkbox" label="Check me out" />
                     </Form.Group>
                     <Button className="button" variant="primary" type="submit">
-                        Submit
+                        Login
                     </Button>
                 </Form>
             </div>

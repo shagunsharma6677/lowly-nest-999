@@ -1,5 +1,8 @@
 import "./Footer.css"
 import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
 
 export default function Footer() {
     return <>
@@ -19,16 +22,16 @@ export default function Footer() {
                     <div className="products">
                         <h2 className="head">Products</h2>
                         <ul>
-                            <li>Why mailPanda?</li>
-                            <li>Product Updates </li>
-                            <li>Email Marketing</li>
-                            <li>Websites</li>
-                            <li>Tractional Email</li>
-                            <li>How We compare</li>
-                            <li>GDPR Compilance</li>
-                            <li>Security</li>
-                            <li>Status</li>
-                            <li>Mobile App</li>
+                            <li className="lis">Why mailPanda?</li>
+                            <li className="lis">Product Updates </li>
+                            <li className="lis">Email Marketing</li>
+                            <li className="lis">Websites</li>
+                            <li className="lis">Tractional Email</li>
+                            <li className="lis">How We compare</li>
+                            <li className="lis">GDPR Compilance</li>
+                            <li className="lis">Security</li>
+                            <li className="lis">Status</li>
+                            <li className="lis">Mobile App</li>
 
                         </ul>
                     </div>
@@ -36,18 +39,18 @@ export default function Footer() {
                     <div className="resources">
                         <h2 className="head">Resources</h2>
                         <ul>
-                            <li>Marketing Library</li>
-                            <li>Free Marketing Tools</li>
-                            <li>Marketing Glossary</li>
-                            <li>Integrations Directory</li>
+                            <li className="lis">Marketing Library</li>
+                            <li className="lis">Free Marketing Tools</li>
+                            <li className="lis">Marketing Glossary</li>
+                            <li className="lis">Integrations Directory</li>
                         </ul>
                     </div>
                     <div className="community">
                         <h2 className="head">Community</h2>
                         <ul>
-                            <li>Agencies & Freelancers</li>
-                            <li>Developers</li>
-                            <li>Events</li>
+                            <li className="lis">Agencies & Freelancers</li>
+                            <li className="lis">Developers</li>
+                            <li className="lis">Events</li>
                         </ul>
 
                     </div>
@@ -55,23 +58,23 @@ export default function Footer() {
                     <div className="company">
                         <h2 className="head">Company</h2>
                         <ul>
-                            <li>Our Story</li>
-                            <li>Newsroom</li>
-                            <li>Give Where You Live</li>
-                            <li>Annual Report</li>
-                            <li>Career</li>
-                            <li>Accesssibility</li>
+                            <li className="lis">Our Story</li>
+                            <li className="lis">Newsroom</li>
+                            <li className="lis">Give Where You Live</li>
+                            <li className="lis">Annual Report</li>
+                            <li className="lis">Career</li>
+                            <li className="lis">Accesssibility</li>
                         </ul>
 
                     </div>
                     <div className="help">
                         <h2 className="head">Help</h2>
                         <ul>
-                            <li>Newsroom</li>
-                            <li>Hire an Expert</li>
-                            <li>Help Center</li>
-                            <li>Career</li>
-                            <li>Talk to Sales</li>
+                            <li className="lis">Newsroom</li>
+                            <li className="lis">Hire an Expert</li>
+                            <li className="lis">Help Center</li>
+                            <li className="lis">Career</li>
+                            <li className="lis">Talk to Sales</li>
                         </ul>
 
                     </div>
@@ -98,22 +101,31 @@ export default function Footer() {
 
                  <div className="footer_lower">
                     <div className="apps">
-                        <div>google play</div>
-                        <div>apple store</div>
+                        <div className="google">
+                        <img src="https://icon-library.com/images/download-our-app-icon/download-our-app-icon-28.jpg" alt="" />
+                        </div>
+                        <div className="apple">
+                        <img src="https://logos-download.com/wp-content/uploads/2016/06/Available_on_the_App_Store_logo.png" alt="" />
+                        </div>
 
                     </div>
 
                     <div className="social_media">
+                        <div>
                         <FacebookIcon />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        </div>
+                        <div><InstagramIcon /> </div>
+                        <div>   <TwitterIcon/></div>
+                        <div><PinterestIcon/> </div>
+                        
+                        
+                      
+                        
+                        
 
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur rerum quod suscipit sequi laboriosam dolorem culpa veritatis cum in nobis quisquam laudantium, dolore non dignissimos placeat excepturi impedit quae aut fugit blanditiis voluptas qui facilis.
+                    ©2001-2022 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Apple and the Apple logo are trademarks of Apple Inc. Mac App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc. Privacy | Terms 
                     </p>
 
                 </div> 

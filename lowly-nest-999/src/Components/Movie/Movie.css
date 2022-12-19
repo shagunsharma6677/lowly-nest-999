@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: #fff;
+    background-color: rgb(241, 226, 157);
     
     border-radius: 1rem 0 0 0;
     transform: translateY(100%);
@@ -27,12 +27,13 @@
     padding-bottom: 70px;
     padding-left: 70px;
     padding-right: 70px;
+    text-align: center;
 
 }
 .card-body > h3{
     font-size: 50px;
 }
 .card-body > p{
-    font-size: 20px;
+    font-size: 25px;
 }
 

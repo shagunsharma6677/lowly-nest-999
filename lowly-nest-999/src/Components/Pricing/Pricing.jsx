@@ -1,3 +1,4 @@
+
 export default function Pricing(){
-    return <>Pricing</>
+    return <><h1> Pricing</h1></>
 }

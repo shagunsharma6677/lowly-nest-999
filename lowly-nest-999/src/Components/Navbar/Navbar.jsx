@@ -10,52 +10,32 @@ export default function Navbar() {
       <div className="navbar">
         <div className="nav_2">
           <ul className="navbar_tag">
-            <div>
-              <Link style={{textDecoration: 'none',listStyle:"none"}} to="/">
+          <div>
+              <Link style={{ textDecoration: 'none' }} to="/">
                 <li className="li">Home</li>
               </Link>
             </div>
+
             <div>
-              <Link style={{textDecoration: 'none'}} to="/product">
+              <Link style={{ textDecoration: 'none' }} to="/product">
                 <li className="li">Product</li>
               </Link>
             </div>
             <div>
-              <Link style={{textDecoration: 'none'}}to="/inspiration">
+              <Link style={{ textDecoration: 'none' }} to="/inspiration">
                 <li className="li">Inspiration</li>
               </Link>
             </div>
-
-            <div>
-              <Link style={{textDecoration: 'none'}}to="/article">
-                <li className="li">Articles</li>
-              </Link>
-            </div>
-
-            <div>
-              <Link style={{textDecoration: 'none'}}to="/community">
-                <li className="li">Community</li>
-
-              </Link>
-            </div>
-
-            <div>
-              <Link style={{textDecoration: 'none'}}to="/help">
-                <li className="li">Help</li>
-              </Link>
-            </div>
-
-
-            <div>
-              <Link style={{textDecoration: 'none'}}to="pricin">
+            {/* <div>
+              <Link style={{ textDecoration: 'none' }} to="pricin">
                 <li className="li">Pricing</li>
               </Link>
-            </div>
+            </div> */}
           </ul>
         </div>
 
         <div className="logo">
-          <Link style={{textDecoration: 'none'}} to="/">
+          <Link style={{ textDecoration: 'none' }} to="/">
             <div className="logo_div">
               <img className="logo_img" src={mailpanda1} alt="logo" />
               <p className="logos">MailPanda</p>
@@ -65,7 +45,7 @@ export default function Navbar() {
 
         <div className="Buttons">
           <div>
-            <Link style={{textDecoration: 'none'}}to="/login">
+            <Link style={{ textDecoration: 'none' }} to="/login">
               <div className="btn_div">
                 <button className="button">Login</button>
               </div>
@@ -73,9 +53,9 @@ export default function Navbar() {
           </div>
 
           <div>
-            <Link style={{textDecoration: 'none'}}to="/signup">
-              <div className="btn_div">
-                <button className="button">Sighup</button>
+            <Link style={{ textDecoration: 'none' }} to="/signup">
+              <div className="btn_div ">
+                <button className="button color">Signup</button>
               </div>
 
             </Link>

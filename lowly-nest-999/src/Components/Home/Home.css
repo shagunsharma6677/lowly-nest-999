@@ -1,14 +1,19 @@
+.home{
+  background-color:rgb(247, 217, 173);
+}
+
 .heading_1 {
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 1px solid blue;
-  margin-top: 30px;
+  /* border: 1px solid blue; */
+  /* margin-top: 30px; */
 }
 .image_card {
   display: flex;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-top: 30px;
   padding: 10px;
   display: grid;
@@ -18,7 +23,7 @@
 
 .video_card {
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -34,14 +39,14 @@
 }
 .video_cont {
   width: 1000px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: auto;
   
 }
 .video_content {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 900px;
   margin: auto;
   text-align: center;
@@ -55,13 +60,13 @@
   margin-bottom: 40px;
 }
 .cards_content {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* padding: 10px; */
 }
 .cards_cont {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 10px;
   height: 650px;
   display: flex;
@@ -69,7 +74,7 @@
 }
 .cards {
   width: 450px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: auto;
   padding: 20px;
   
@@ -94,11 +99,11 @@
 }
 
 .partners_container {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 100px;
 }
 .partners_heading {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   padding: 20px;
   width: 800px;
 }
@@ -108,7 +113,7 @@
 .partners {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
   gap: 10px;
   width: 1200px;
@@ -116,13 +121,13 @@
   margin: auto;
 }
 .prtn_cont {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 1200px;
   margin: auto;
 }
 .partners_card {
   display: flex;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 5px;
   height: 140px;
   display: flex;
@@ -139,7 +144,7 @@
   margin-right: 10px;
 }
 .prt_img_div  > img{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
 }
 .prt_content > h2 {
@@ -149,7 +154,7 @@
 .container_h {
   width: 100%;
 
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .heading {
   width: 800px;

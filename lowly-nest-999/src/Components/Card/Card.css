@@ -1,15 +1,15 @@
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 555px;
     margin: auto;
     /* border: 1px solid black; */
 }
 .card{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: auto;
 }
 .img-1{
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
 }
 .lower{
     height:150px;

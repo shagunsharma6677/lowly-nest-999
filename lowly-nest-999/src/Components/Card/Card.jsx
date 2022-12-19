@@ -1,5 +1,6 @@
-import { Button } from '@chakra-ui/react'
+// import { Button } from '@chakra-ui/react'
 import "./Card.css"
+import Button from "../Button/Button" 
 export default function Card(props) {
     const { img, data } = props
     return <>
@@ -13,9 +14,7 @@ export default function Card(props) {
                         <p>{data}</p>
                     </div>
                     <div>
-                        <Button colorScheme='yellow' variant='outline'>
-                            Learn more
-                        </Button>
+                        <Button btn="Learn"/>
                     </div>
                 </div>
             </div>

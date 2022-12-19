@@ -1,12 +1,17 @@
 import Heading from "../Heading/Heading"
 import Card from "../Card/Card"
 import "./Home.css"
+import Button from "../Button/Button"
 // import { background } from "@chakra-ui/react"
 // import { red, teal } from "@mui/material/colors"
 export default function Home() {
     return <>
+    <div className="home">
+
+    
         <div className="heading_1">
             <Heading heading="Turn Emails into Revenue" p_tag="Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks and sales." />
+            {/* <Button/> */}
         </div>
 
         <div className="image_card">
@@ -77,7 +82,7 @@ export default function Home() {
             <div className="cards_cont clr4">
                 <div className="cards">
                     <h2>Keep your emails relevant and your brand growing</h2>
-                    <p>eliver personalized emails based on their buying behavior, survey responses, chat interactions, and support tickets to promote loyalty and growth.</p>
+                    <p>Deliver personalized emails based on their buying behavior, survey responses, chat interactions, and support tickets to promote loyalty and growth.</p>
                     <div>
                         Learn more -
                     </div>
@@ -129,7 +134,7 @@ export default function Home() {
                        
                         <div className="prt_content">
                             <h2>Instagram</h2>
-                            <p>Promote and share your instagram posts in email xampaigns
+                            <p>Promote and share your instagram posts in email Campaigns
                             </p>
                         </div>
                     </div>
@@ -201,6 +206,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </>
 }

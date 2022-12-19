@@ -6,7 +6,7 @@ import "./Sighup.css"
 
 export default function Signup (){
     return <>
-        <div className='container'>
+        <div className='container_sigh'>
             <div className="form_div">
                 <Form className='form'>
                     <div className='login'>
